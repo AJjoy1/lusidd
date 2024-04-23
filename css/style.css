@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+h1 h2 h3 h4 h5 h6 p ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-image: url(../imeges/banner-1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.height{
+    min-height: 90vh;
+    align-items: center;
+}
+header h5{
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+font-size: 14px;
+    
+margin-bottom: 10px;
+}
+header h1{
+    
+color: #fff;
+    
+font-size: 48px;
+    
+margin-bottom: 15px;
+}
+header p{
+    
+color: #999999;
+    
+margin-bottom: 30px;
+}
+header .btn_download{
+    
+background-color: #008ed6;
+    
+border: 1px solid #008ed6;
+    
+letter-spacing: 2px;
+    
+color: #fff;
+    
+font-size: 12px;
+    
+border-radius: 3px;
+    
+padding: 12px 20px;
+}
+header .view_btn{
+    
+background: transparent;
+    
+border: 1px solid #999999;
+    
+margin-left: 10px;
+}
+
+header .btn_download:hover{
+    background-color: transparent;
+    color: #fff;
+    border-color: #999999;
+}
+header .view_btn:hover{
+    background-color: #008ed6;
+    color: #fff;
+    border-color: #008ed6;
+}
+.nav-link{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    padding: 0 !important;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.nav-link:hover::before{
+    width: 48%;
+}
+.nav-link:hover::after{
+    width: 48%;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.phone_imeges{
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+}
+.Feture_section{
+
+padding: 70px 0;
+}
+.heading{
+
+text-align: center;
+
+margin-bottom: 50px;
+}
+.heading h5{
+    
+color: #008ed6;
+    
+font-size: 14px;
+    
+text-transform: uppercase;
+    
+font-weight: 500;
+    
+margin-bottom: 10px;
+}
+.heading h1{
+    
+font-size: 36px;
+    
+margin-bottom: 15px;
+}
+.heading span{
+    
+height: 3px;
+    
+display: block;
+    
+width: 50px;
+    
+background: #008ed6;
+    
+margin: auto;
+position: relative;
+}
+.heading span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    transition:.4s all ease-in-out;
+}
+.heading span::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    transition:.4s all ease-in-out;
+}
+.Feture_section:hover .heading span::before{
+    width: 48%;
+}
+.Feture_section:hover .heading span::after{
+    width: 48%;
+}
+
+.Feature_contant{
+
+text-align: center;
+}
+.Feature_contant .icon{
+
+margin: auto;
+
+font-size: 20px;
+
+color: #999;
+
+justify-content: center;
+
+display: flex;
+
+width: 50px;
+
+height: 50px;
+
+border: 1px solid #999;
+
+border-radius: 50%;
+
+align-items: center;
+}
+.Feature_contant h3{
+
+font-size: 25px;
+
+color: #1a1a1a;
+
+margin-bottom: 15px;
+
+margin-top: 5px;
+}
+.Feature_contant p{
+color: #9999;
+}
+.Iphone{
+
+}
+.Iphone .iphone{
+    
+}
+.Iphone .heading{
+
+}
+
+
+
+
+
+
